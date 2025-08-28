@@ -15,8 +15,8 @@ A machine learning project that predicts the outcomes of Serie A matches using h
 ## ✅ Results
 The model was tested on fixtures after **June 1, 2024**, giving the following metrics:
 
-- **Accuracy**: ~41–43%  
-- **Precision (weighted)**: ~40%  
+- **Accuracy**: ~47.8%  
+- **Precision (weighted)**: ~46.7%  
 
 A confusion matrix shows where predictions succeed and fail, with the model strongest at identifying **wins and losses**, and less accurate on **draws** (a notoriously hard outcome to predict).  
 
@@ -24,20 +24,20 @@ A confusion matrix shows where predictions succeed and fail, with the model stro
 
 ## 🔎 What These Results Mean
 - Random guessing across 3 outcomes would yield ~33% accuracy.  
-- Our predictor outperforms this baseline, reaching ~41–43%.  
+- This predictor outperforms this baseline, reaching ~47.8%.  
 - Draws remain underpredicted, a common challenge in football models due to their lower frequency.  
 
 ---
 
 ## ⚔️ Comparison to Other Models
 - **Simple statistical baselines** (e.g., always predicting the home team or the most common outcome) achieve ~35–38% accuracy.  
-- **Our Random Forest model** surpasses these with ~41–43%.  
+- **Our Random Forest model** surpasses these with ~47.8%.  
 - **More advanced models** (e.g., gradient boosting or neural networks with betting market odds) can sometimes reach **50–55%** in research contexts, but at the cost of interpretability.  
 
 ---
 
 ## 🚀 Next Steps
-- Experiment with **XGBoost/LightGBM** for boosted performance.  
+- Experiment with **LightGBM** for boosted performance.  
 - Incorporate **betting odds** and **player-level data**.  
 - Extend to other leagues for broader benchmarking.  
 
