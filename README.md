@@ -31,7 +31,7 @@ A confusion matrix shows where predictions succeed and fail, with the model stro
 
 ## ⚔️ Comparison to Other Models
 - **Simple statistical baselines** (e.g., always predicting the home team or the most common outcome) achieve ~35–38% accuracy.  
-- **Our Random Forest model** surpasses these with ~47.8%.  
+- **The Random Forest model** surpasses these with ~47.8%.  
 - **More advanced models** (e.g., gradient boosting or neural networks with betting market odds) can sometimes reach **50–55%** in research contexts, but at the cost of interpretability.  
 
 ---
