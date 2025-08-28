@@ -17,6 +17,12 @@ The model was tested on fixtures after **June 1, 2024**, giving the following me
 
 - **Accuracy**: ~47.8%  
 - **Precision (weighted)**: ~46.7%  
+### Confusion Matrix
+| Actual \\ Predicted | 0 (Loss) | 1 (Draw) | 3 (Win) |
+|---------------------|----------|----------|---------|
+| **0 (Loss)**        | 161      | 37       | 72      |
+| **1 (Draw)**        | 109      | 37       | 68      |
+| **3 (Win)**         | 90       | 18       | 163     |
 
 A confusion matrix shows where predictions succeed and fail, with the model strongest at identifying **wins and losses**, and less accurate on **draws** (a notoriously hard outcome to predict).  
 
