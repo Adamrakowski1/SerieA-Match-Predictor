@@ -1,4 +1,4 @@
-content = """# ⚽ Serie A Match Predictor
+# ⚽ Serie A Match Predictor
 
 A machine learning project that predicts the outcomes of Serie A matches using historical performance data, team trends, and contextual features. The model is trained on past seasons and tested on recent fixtures to provide **data-driven insights** into win, draw, and loss probabilities.
 
